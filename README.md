@@ -110,11 +110,26 @@ I'm currently exploring **DSA, Python, C++, Web Development, AI, and Software En
 
 ---
 
-## 🗓️ Contribution Graph
+## 🐍 Contribution Graph
 
+<!--
+  FIX: previously used a github.com/.../blob/... link, which serves an HTML
+  page, not an image — it can never render inside an <img> tag. Also removed
+  the duplicate second snake section further down the file.
+
+  IMPORTANT: this still needs the Platane/snk GitHub Action added to the
+  anshuljat9/anshuljat9 repo (workflow shared separately) so that the
+  `output` branch and these two SVG files actually get generated. Until
+  that workflow runs at least once, this will show a broken image — that's
+  expected and not a markdown problem.
+-->
 <div align="center">
 
-<img src="https://github.com/anshuljat9/anshuljat9/blob/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anshuljat9/anshuljat9/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anshuljat9/anshuljat9/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/anshuljat9/anshuljat9/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
@@ -122,31 +137,21 @@ I'm currently exploring **DSA, Python, C++, Web Development, AI, and Software En
 
 # ⭐ Featured Projects
 
+<!--
+  FIX: these were literally "YOUR_PROJECT_1..4" (a template placeholder),
+  so the pin-card API returned broken/error cards. Swapped in Scribblo-web,
+  a real, deployed repo. Add your other repo names below the same way —
+  just tell me the names and I'll drop them in.
+-->
 <div align="center">
 
-<a href="https://github.com/anshuljat9">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anshuljat9&repo=YOUR_PROJECT_1&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/anshuljat9">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anshuljat9&repo=YOUR_PROJECT_2&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/anshuljat9/Scribblo-web">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anshuljat9&repo=Scribblo-web&theme=tokyonight&hide_border=true" />
 </a>
 
 </div>
 
-<div align="center">
-
-<a href="https://github.com/anshuljat9">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anshuljat9&repo=YOUR_PROJECT_3&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/anshuljat9">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anshuljat9&repo=YOUR_PROJECT_4&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
-> 💡 Replace `YOUR_PROJECT_1`, `YOUR_PROJECT_2`, etc. with your actual repository names.
+> 💡 Add more cards the same way — `?username=anshuljat9&repo=<exact-repo-name>` — once you tell me the repo names for your other projects.
 
 ---
 
@@ -215,16 +220,6 @@ Every project teaches me something new, and every bug is another opportunity to 
 * [ ] Improve GitHub consistency
 * [ ] Build a strong developer portfolio
 * [ ] Keep learning in public
-
----
-
-# 🐍 Contribution Activity
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/anshuljat9/anshuljat9/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
-
-</div>
 
 ---
 
